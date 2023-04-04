@@ -15,17 +15,17 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 
 The purpose of the analysis is to build a tool that can help nonprofit foundation, Alphabet Soup select the applicants for funding with the best   chance of success in their ventures. Specifically, to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup by using the features in the provided dataset, a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. These features are :
 
-*EIN and NAME—Identification columns
-*APPLICATION_TYPE—Alphabet Soup application type
-*AFFILIATION—Affiliated sector of industry
-*CLASSIFICATION—Government organization classification
-*USE_CASE—Use case for funding
-*ORGANIZATION—Organization type
-*STATUS—Active status
-*INCOME_AMT—Income classification
-*SPECIAL_CONSIDERATIONS—Special considerations for application
-*ASK_AMT—Funding amount requested
-*IS_SUCCESSFUL—Was the money used effectively
+- EIN and NAME—Identification columns
+- APPLICATION_TYPE—Alphabet Soup application type
+- AFFILIATION—Affiliated sector of industry
+- CLASSIFICATION—Government organization classification
+- USE_CASE—Use case for funding
+- ORGANIZATION—Organization type
+- STATUS—Active status
+- INCOME_AMT—Income classification
+- SPECIAL_CONSIDERATIONS—Special considerations for application
+- ASK_AMT—Funding amount requested
+- IS_SUCCESSFUL—Was the money used effectively
 
 
 
@@ -70,12 +70,12 @@ The model is trained on the preprocessed data for 100 epochs using the training 
 
 To optimize the model and achieve a target predictive accuracy higher than 75%, the following techniques is implemented:
 
-*Increased the number of hidden nodes in each layer
-*Added more hidden layers
-*Increased the number of epochs to allow the model to train for longer
-*Use a different optimizer like "Adagrad"
-*Used the same early stopping callback as before to stop the training if the validation loss does not improve for 10 epochs. These changes should help improve the performance of the model.
-*Add dropout layers to prevent overfitting
+- Increased the number of hidden nodes in each layer
+- Added more hidden layers
+- Increased the number of epochs to allow the model to train for longer
+- Use a different optimizer like "Adagrad"
+- Used the same early stopping callback as before to stop the training if the validation loss does not improve for 10 epochs. These changes should help improve the performance of the model.
+ -Add dropout layers to prevent overfitting
 
 
 
