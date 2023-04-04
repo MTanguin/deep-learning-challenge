@@ -73,7 +73,7 @@ To optimize the model and achieve a target predictive accuracy higher than 75%, 
 - Increased the number of hidden nodes in each layer
 - Added more hidden layers
 - Increased the number of epochs to allow the model to train for longer
-- Use a different optimizer like "Adagrad"
+- Used a different optimizer like "Adagrad"
 - Used the same early stopping callback as before to stop the training if the validation loss does not improve for 10 epochs. These changes should help improve the performance of the model.
  -Add dropout layers to prevent overfitting
 
