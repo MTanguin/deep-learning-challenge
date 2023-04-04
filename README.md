@@ -39,15 +39,23 @@ The target variable for the model is IS_SUCCESSFUL, which indicates whether or n
 
 The features for the model could include:
 
-*APPLICATION_TYPE—Alphabet Soup application type
-*AFFILIATION—Affiliated sector of industry
-*CLASSIFICATION—Government organization classification
-*USE_CASE—Use case for funding
-*ORGANIZATION—Organization type
-*STATUS—Active status
-*INCOME_AMT—Income classification
-*SPECIAL_CONSIDERATIONS—Special considerations for application
-*ASK_AMT—Funding amount requested
+**APPLICATION_TYPE—Alphabet Soup application type
+
+**AFFILIATION—Affiliated sector of industry
+
+**CLASSIFICATION—Government organization classification
+
+**USE_CASE—Use case for funding
+
+**ORGANIZATION—Organization type
+
+**STATUS—Active status
+
+**INCOME_AMT—Income classification
+
+**SPECIAL_CONSIDERATIONS—Special considerations for application
+
+**ASK_AMT—Funding amount requested
 
 EIN', 'NAME' , IS_SUCCESSFUL are variables that were removed.
 
