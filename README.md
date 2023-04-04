@@ -60,8 +60,8 @@ The features for the model could include:
 EIN', 'NAME' , IS_SUCCESSFUL are variables that were removed.
 
 
+![best_model](https://user-images.githubusercontent.com/114210481/229775473-770ac642-cc10-4a3f-bdd2-ad5110a2fee3.png)
 
-[label](Best_Model/Optimization_Final.ipynb)
 
 
 The neural network model includes three hidden layers with 128, 64, and 32 nodes, respectively and uses the 'relu' activation function for each layer except the output layer, which uses the 'sigmoid' activation function. The model is compiled using the 'Adagrad' optimizer and the binary cross-entropy loss function.
