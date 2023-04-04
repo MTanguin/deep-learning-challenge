@@ -40,9 +40,12 @@ In this section, describe the analysis you completed for the machine learning mo
 ## Results
 
 Data Preprocessing
+
 Several data preprocessing tasks, including dropping non-beneficial columns ('EIN' and 'NAME'), binning and replacing values in the 'APPLICATION_TYPE' and 'CLASSIFICATION' columns, and converting categorical data to numeric using one-hot encoding were performed.
+
 The target variable for the model is IS_SUCCESSFUL, which indicates whether or not the money funded by Alphabet Soup was used effectively. The model will predict whether an applicant will be successful if funded by Alphabet Soup based on various features in the dataset.
-The features for the model could include
+The features for the model could include:
+
 --APPLICATION_TYPE—Alphabet Soup application type
 --AFFILIATION—Affiliated sector of industry
 --CLASSIFICATION—Government organization classification
@@ -76,6 +79,7 @@ Increase the size of the layers: You can try increasing the number of neurons in
 
 
 ## Summary
+
 In an attempt to build a model than can achieve target predictive accuracy higher than 75%, several experiment were done to build and train a deep neural network using TensorFlow and Keras to predict whether nonprofit organizations that apply for funding from Alphabet Soup will be successful. The experiment used data preprocessing techniques such as dropping columns, binning values, and one-hot encoding to clean the data and convert categorical variables to numerical values. Then splits the data into training and testing datasets, scales the features using StandardScaler, and defines a deep neural network with several hidden layers and an output layer with a sigmoid activation function. Finally, compiles, trains, and evaluates the model using binary cross-entropy loss and accuracy as the evaluation metric.
 
 
