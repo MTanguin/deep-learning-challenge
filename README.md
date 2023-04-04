@@ -107,3 +107,5 @@ Use regularization techniques: Regularization techniques such as dropout or L2 r
 Sources:
 
 https://courses.bootcampspot.com/courses/2799/assignments/42927?module_item_id=804037
+
+https://scikit-learn.org/stable/search.html?q=neural+networks
