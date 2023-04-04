@@ -96,3 +96,7 @@ Add more layers or use a different architecture: The current model has three hid
 Use regularization techniques: Regularization techniques such as dropout or L2 regularization can help prevent overfitting and improve generalization performance.
 
 
+
+Sources:
+
+https://courses.bootcampspot.com/courses/2799/assignments/42927?module_item_id=804037
