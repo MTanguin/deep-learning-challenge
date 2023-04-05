@@ -68,7 +68,7 @@ The model is trained on the preprocessed data for 100 epochs using the training 
 ![best_model](https://user-images.githubusercontent.com/114210481/229775473-770ac642-cc10-4a3f-bdd2-ad5110a2fee3.png)
 
 
-To optimize the model and achieve a target predictive accuracy higher than 75%, the following techniques is implemented:
+To optimize the model and achieve a target predictive accuracy higher than 75%, the following techniques were implemented:
 
 - Increased the number of hidden nodes in each layer
 - Added more hidden layers
