@@ -1,4 +1,4 @@
-# deep-learning-challenge
+##### "Harnessing the Power of Machine Learning to Fuel Alphabet Soup's Funding Decisions"
 
 ## Background
 
